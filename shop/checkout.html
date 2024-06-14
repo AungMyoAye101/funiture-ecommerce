@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="../style/main.css" />
+    <link rel="stylesheet" href="./checkout.css" />
+    <link rel="stylesheet" href="./shop.css" />
+    <script
+      src="https://kit.fontawesome.com/e9675039d0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="logo-container">
+        <img src="../image/logo.png" alt="logo image" />
+      </div>
+      <ul class="flex">
+        <li><a href="#">Home</a></li>
+        <li><a href="./shop/shop.html">Shop</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="cta flex">
+        <a href="#" class="account"><i class="fa-regular fa-user"></i></a>
+        <a href="#" class="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </a>
+        <a href="#" class="heart-icon">
+          <i class="fa-regular fa-heart"></i>
+        </a>
+        <a href="../products/product.html" class="cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </a>
+      </div>
+    </nav>
+    <!-- cart image background -->
+    <section class="bg-img-section">
+      <div class="bg-img-con flex">
+        <img src="../icons/Meubel House_Logos-05.svg" alt="logo" />
+        <h1>Checkout</h1>
+        <div class="flex nav-tag">
+          <span>Home</span>
+          <i class="fa-solid fa-greater-than"></i>
+          <span>Checkout</span>
+        </div>
+      </div>
+    </section>
+    <!-- payment section -->
+    <section class="checkout-con">
+      <div class="payment-con">
+        <h1>Billing Details</h1>
+        <div class="name-con">
+          <div class="input-con">
+            <label for="firstName">First Name</label>
+            <input type="text" name="firstName" id="firstName" />
+          </div>
+          <div class="input-con">
+            <label for="lastName">Last Name</label>
+            <input type="text" name="firstName" id="lastName" />
+          </div>
+        </div>
+        <div class="input-con">
+          <label for="company">Company Name(option)</label>
+          <input type="text" name="company" id="company" />
+        </div>
+        <div class="input-con">
+          <label for="rigion">Country / Region</label>
+          <input type="text" name="rigion" id="rigion" />
+        </div>
+        <div class="input-con">
+          <label for="street">Street Address</label>
+          <input type="text" name="street" id="street" />
+        </div>
+        <div class="input-con">
+          <label for="city">Town / City</label>
+          <input type="text" name="city" id="city" />
+        </div>
+        <div class="input-con">
+          <label for="province">Province</label>
+          <input type="text" name="province" id="province" />
+        </div>
+        <div class="input-con">
+          <label for="zip">Zip code</label>
+          <input type="text" name="zip" id="zip" />
+        </div>
+        <div class="input-con">
+          <label for="phone">Phone</label>
+          <input type="text" name="phone" id="phone" />
+        </div>
+        <div class="input-con">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div class="input-con">
+          <label for="additional-info"></label>
+          <input
+            type="text"
+            name="additional-info"
+            id="additional-info"
+            placeholder="Additional information"
+          />
+        </div>
+      </div>
+      <div class="order-con">
+        <div class="order-details-con">
+          <div>
+            <h1>Product</h1>
+            <h1>Subtotal</h1>
+          </div>
+          <div>
+            <p>Asgaard sofa x 1</p>
+            <p>Rp 250.000.00</p>
+          </div>
+          <div>
+            <h3>Subtotal</h3>
+            <p>Rp 250.000.00</p>
+          </div>
+          <div>
+            <h3>Total</h3>
+            <h2 class="price">Rp 250.000.00</h2>
+          </div>
+        </div>
+        <hr />
+        <div>
+          <input type="radio" name="payment-option" id="payment-option" />
+          <label for="payment-option"> Direct Bank Transfer </label>
+          <p>
+            Make your payment directly into our bank account. Please use your
+            Order ID as the payment reference. Your order will not be shipped
+            until the funds have cleared in our account.
+          </p>
+        </div>
+        <div>
+          <input type="radio" name="payment-option" id="payment-option" />
+          <label for="payment-option"> Direct Bank Transfer </label>
+        </div>
+        <div>
+          <input type="radio" name="payment-option" id="cash" />
+          <label for="cash"> Cash On Delivery </label>
+        </div>
+        <p>
+          Your personal data will be used to support your experience throughout
+          this website, to manage access to your account, and for other purposes
+          described in our privacy policy.
+        </p>
+        <button>Place Order</button>
+      </div>
+    </section>
+    <!-- feature -->
+    <section class="flex feature-con">
+      <div class="feature">
+        <img src="../icons/trophy.svg" alt="" />
+        <div>
+          <h1>Hight Quality</h1>
+          <p>Crafted from top materials</p>
+        </div>
+      </div>
+      <div class="feature">
+        <img src="../icons/verify.svg" alt="" />
+        <div>
+          <h1>Hight Quality</h1>
+          <p>Crafted from top materials</p>
+        </div>
+      </div>
+      <div class="feature">
+        <img src="../icons/shipping.svg" alt="" />
+        <div>
+          <h1>Hight Quality</h1>
+          <p>Crafted from top materials</p>
+        </div>
+      </div>
+      <div class="feature">
+        <img src="../icons/service.svg" alt="" />
+        <div>
+          <h1>Hight Quality</h1>
+          <p>Crafted from top materials</p>
+        </div>
+      </div>
+    </section>
+    <section class="conatct-footer">
+      <section class="footer-link-con">
+        <div class="title-con">
+          <h1>Funiro</h1>
+          <p>400 University Drive Suite 200 Coral Gables, FL 33134 USA</p>
+        </div>
+        <div>
+          <ul class="flex">
+            <li>Link</li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Service</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+        <div>
+          <ul class="flex">
+            <li>Help</li>
+            <li>Paymaent Option</li>
+            <li>Return</li>
+            <li>Privacy and Policy</li>
+          </ul>
+        </div>
+        <div>
+          <h6>Newletter</h6>
+          <input type="text" placeholder="Enter your text" />
+        </div>
+      </section>
+      <footer>
+        <small>2024 All Right Reserved</small>
+      </footer>
+    </section>
+  </body>
+</html>

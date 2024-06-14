@@ -1,0 +1,62 @@
+.bc-img-con {
+  width: 100vw;
+}
+.bc-img-con img {
+  width: 100%;
+}
+.info-link {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: var(--bc-color);
+}
+.value {
+  padding: 4px 10px;
+  background-color: #fff;
+  font-weight: 300;
+}
+.pd-grid-con {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 0 20px;
+}
+/* paginatin buttons group */
+.pagination-btn {
+  justify-content: center;
+  margin: 2rem;
+}
+.pagination-btn button {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  background-color: #f9f1e7;
+  border: none;
+  border-radius: 10px;
+}
+.pagination-btn .active {
+  background-color: #b88e2f;
+}
+/* Feature container */
+.feature-con {
+  justify-content: space-between;
+  background-color: #faf3ea;
+  padding: 20px;
+  margin: 2rem;
+}
+.feature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.feature img {
+  width: 40px;
+}
+.feature div h1 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.feature div p {
+  font-size: 1rem;
+  font-weight: 200;
+}

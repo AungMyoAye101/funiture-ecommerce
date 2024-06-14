@@ -1,0 +1,55 @@
+.contact-desc {
+  text-align: center;
+  font-size: 1rem;
+  color: #9f9f9f;
+  width: 50%;
+  margin: 2rem auto;
+}
+.contact-desc h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: black;
+}
+/* user contact information */
+.user-contact-con {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding: 20px;
+  margin: 0 auto;
+}
+/* company info */
+.company-info-con {
+  width: 30%;
+}
+.company-info {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.company-info div i {
+  font-size: 1.2rem;
+}
+.status {
+  width: 70%;
+  text-align: justify;
+}
+.status p {
+  line-height: 1.2rem;
+}
+/* user information con */
+.user-info-con {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: start;
+
+  width: 60%;
+}
+.user-info-con button {
+  font-size: 1rem;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 4px 20px;
+  border-radius: 4px;
+}
