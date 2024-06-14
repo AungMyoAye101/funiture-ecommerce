@@ -1,7 +1,3 @@
-.cta div i {
-  align-items: center;
-}
-
 /* section */
 section {
   margin-bottom: 40px;
@@ -11,10 +7,9 @@ section {
   background: no-repeat url(../image/backgroundimage.png);
   background-size: cover;
   background-position: center;
-  display: flex;
+
   justify-content: end;
   align-items: center;
-  padding: 0 20px;
 }
 section .hero-text {
   max-width: 700px;
@@ -32,7 +27,7 @@ section .hero-text .text-con h1 {
   line-height: auto;
 }
 section .hero-text .text-con p {
-  font-size: 1rem;
+  font-size: var(--small-font-size);
   line-height: auto;
 }
 
@@ -45,8 +40,6 @@ section .hero-text .link-con a {
 }
 /* ======= Browse section ====== */
 .browse-con {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   gap: 20px;
 }
@@ -54,11 +47,11 @@ section .hero-text .link-con a {
   text-align: center;
 }
 .browse-text-con h3 {
-  font-size: 30px;
+  font-size: var(--big-font-size);
   font-weight: 700;
 }
 .browse-text-con p {
-  font-size: 1.1rem;
+  font-size: var(--small-font-size);
   font-weight: 400;
 }
 .browse-img-con {
@@ -79,12 +72,11 @@ section .hero-text .link-con a {
   font: 1.2rem;
   font-weight: 500;
 }
-/* products conatiner */
 
 /* ====About section */
 .about {
   padding: 20px 0 20px 30px;
-  background-color: #fff3e3;
+  background-color: var(--secondery-bc-color);
   display: flex;
   flex-flow: row nowrap;
 

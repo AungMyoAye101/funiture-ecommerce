@@ -1,0 +1,39 @@
+.flex {
+  display: flex;
+  gap: 1rem;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+/* list style */
+ul li a {
+  font-size: 1.2rem;
+  color: #000;
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+/* input style */
+
+.input-con {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  width: 100%;
+}
+.input-con input {
+  border: 1px solid #333;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 6px;
+}
