@@ -108,6 +108,7 @@ nav {
   transform: scale(1);
   opacity: 1;
 }
+/* foorter section */
 .conatct-footer {
   padding: 2rem;
   background-color: var(--secondary-bc-color);
