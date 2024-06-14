@@ -44,9 +44,6 @@
   margin: 2rem;
 }
 .feature {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 6px;
 }
 .feature img {

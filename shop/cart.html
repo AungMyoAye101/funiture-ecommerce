@@ -10,13 +10,13 @@
     <link rel="stylesheet" href="./shop.css" />
   </head>
   <body>
-    <nav>
+    <nav class="flex">
       <div class="logo-container">
         <img src="../image/logo.png" alt="logo image" />
       </div>
       <ul class="flex">
         <li><a href="../index.html">Home</a></li>
-        <li><a href="./shop/shop.html">Shop</a></li>
+        <li><a href="../shop/shop.html">Shop</a></li>
         <li><a href="#">About</a></li>
         <li><a href="../contact/contact.html">Contact</a></li>
       </ul>
@@ -47,31 +47,26 @@
     </section>
     <!-- cart checkout section -->
     <section class="cart-container">
-      <div class="cart-con">
-        <div class="cart-row">
-          <div>Product</div>
-          <div>Price</div>
-          <div>Quantity</div>
-          <div>Subtotal</div>
-        </div>
-        <div class="cart-row">
-          <div>
-            <img
-              class="cart-img"
-              src="../image/Asgaard sofa 3.svg"
-              alt="product image"
-            />
-            <span>Asgaard Sofa</span>
-          </div>
+      <div class="cart-grid-con">
+        <div class="span2"><h1>Product</h1></div>
+        <div><h1>Price</h1></div>
+        <div><h1>Quantity</h1></div>
+        <div class="span2"><h1>Subtotal</h1></div>
 
-          <div>Rp 250.000.00</div>
-          <div>1</div>
-          <div>Rp 250.000.00</div>
-          <div><i class="fa-solid fa-trash"></i></div>
-        </div>
+        <img
+          class="cart-img"
+          src="../image/Asgaard sofa 3.svg"
+          alt="product image"
+        />
+
+        <div>Asgaard Sofa</div>
+        <div>Rp 250.000.00</div>
+        <div class="quantity">1</div>
+        <div>Rp 250.000.00</div>
+        <div><i class="fa-solid fa-trash"></i></div>
       </div>
-
-      <div class="order">
+      <!-- order section -->
+      <div class="flex-col flex-center order">
         <h1>Cart Totals</h1>
         <div class="flex-space">
           <h4>Subtotal</h4>
@@ -85,8 +80,8 @@
       </div>
     </section>
     <!-- feature section -->
-    <!-- <section class="flex feature-con">
-      <div class="feature">
+    <section class="flex feature-con">
+      <div class="flex-center feature">
         <img src="../icons/trophy.svg" alt="" />
         <div>
           <h1>Hight Quality</h1>
@@ -146,7 +141,7 @@
       <footer>
         <small>2024 All Right Reserved</small>
       </footer>
-    </section> -->
+    </section>
     <script
       src="https://kit.fontawesome.com/e9675039d0.js"
       crossorigin="anonymous"
