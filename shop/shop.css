@@ -15,12 +15,7 @@
   background-color: #fff;
   font-weight: 300;
 }
-.pd-grid-con {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  padding: 0 20px;
-}
+
 /* paginatin buttons group */
 .pagination-btn {
   justify-content: center;

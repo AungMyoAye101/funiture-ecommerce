@@ -79,6 +79,21 @@ nav {
   font-weight: 300;
   text-decoration: line-through;
 }
+/* discount noti badge */
+.discount-noti {
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #d60474;
+}
+.new {
+  background-color: lightgreen;
+}
 /* card hover */
 .card-hover {
   position: absolute;
