@@ -126,6 +126,7 @@ nav {
 }
 /* foorter section */
 .conatct-footer {
+  width: 100%;
   padding: 2rem;
   background-color: var(--secondary-bc-color);
 }
