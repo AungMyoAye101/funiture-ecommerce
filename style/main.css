@@ -161,7 +161,10 @@ nav {
 }
 .footer-link-con {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 .footer-link-con div {
   display: flex;
@@ -171,6 +174,10 @@ nav {
 .footer-link-con div ul {
   flex-direction: column;
   align-items: flex-start;
+}
+.footer-link-con div input {
+  padding: 6px;
+  font-size: 12px;
 }
 /* background nav image  */
 .bg-img-section {
@@ -210,5 +217,10 @@ nav {
   }
   .menu {
     display: block;
+  }
+}
+@media only screen and (max-width: 378px) {
+  .footer-link-con {
+    flex-direction: column;
   }
 }
