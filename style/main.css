@@ -4,7 +4,7 @@
   --bc-color: #f7f7f7;
   --white-bc: #fff;
   --secondary-bc-color: #f9f1e7;
-  --big-font-size: 2rem;
+  --big-font-size: clamp(2rem, 2.4rem, 4rem);
   --medium-font-size: 1.4rem;
   --small-font-size: 1rem;
   --fade-text-color: #f9f9f9;
