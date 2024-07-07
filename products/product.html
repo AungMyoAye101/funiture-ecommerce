@@ -13,23 +13,80 @@
       <div class="logo-container">
         <img src="../image/logo.png" alt="logo image" />
       </div>
-      <ul class="flex">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../shop/shop.html">Shop</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="../contact/contact.html">Contact</a></li>
-      </ul>
-      <div class="cta flex">
-        <a href="#" class="account"><i class="fa-regular fa-user"></i></a>
-        <a href="#" class="search">
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </a>
-        <a href="#" class="heart-icon">
-          <i class="fa-regular fa-heart"></i>
-        </a>
-        <a href="../shop/cart.html" class="cart">
-          <i class="fa-solid fa-cart-shopping"></i>
-        </a>
+      <div class="lg-nav">
+        <ul class="flex">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../shop/shop.html">Shop</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="lg-nav">
+        <div class="flex">
+          <a href="#" class="account"><i class="fa-regular fa-user"></i></a>
+          <a href="#" class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+          <a href="#" class="heart-icon">
+            <i class="fa-regular fa-heart"></i>
+          </a>
+          <a href="../shop/cart.html" class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- mobile nav bar -->
+      <div class="menu-btn">
+        <i id="hamburger" class="fa-solid fa-bars"></i>
+        <i id="cross" class="fa-solid fa-xmark"></i>
+      </div>
+      <div id="menu" class="flex-col mb-cta">
+        <ul class="flex-col">
+          <li>
+            <a href="#" class="flex-between"
+              ><i class="fa-solid fa-house"></i><span> Home</span></a
+            >
+          </li>
+          <li>
+            <a href="./shop/shop.html" class="flex-between"
+              ><i class="fa-brands fa-shopify"></i><span>Shop</span></a
+            >
+          </li>
+          <li>
+            <a href="#about" class="flex-between"
+              ><i class="fa-solid fa-circle-info"></i><span>About</span></a
+            >
+          </li>
+          <li>
+            <a href="./contact/contact.html" class="flex-between"
+              ><i class="fa-solid fa-envelope"></i><span>Conatct</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="flex-between">
+              <i class="fa-regular fa-user"></i> <span>Acccount</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex-between">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <span>Search</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex-between">
+              <i class="fa-regular fa-heart"></i>
+              <span>Favourite</span>
+            </a>
+          </li>
+          <li>
+            <a href="../shop/cart.html" class="flex-between">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span>Cart</span>
+            </a>
+          </li>
+        </ul>
       </div>
     </nav>
     <!-- product detaild container -->
@@ -275,5 +332,6 @@
       src="https://kit.fontawesome.com/e9675039d0.js"
       crossorigin="anonymous"
     ></script>
+    <script src="../script/nav.js"></script>
   </body>
 </html>
