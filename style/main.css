@@ -4,7 +4,7 @@
   --bc-color: #f7f7f7;
   --white-bc: #fff;
   --secondary-bc-color: #f9f1e7;
-  --big-font-size: 2rem;
+  --big-font-size: clamp(2rem, 2.4rem, 4rem);
   --medium-font-size: 1.4rem;
   --small-font-size: 1rem;
   --fade-text-color: #f9f9f9;
@@ -35,32 +35,34 @@ nav {
   z-index: 2;
 }
 /* mobile side nav bar */
-.menu {
+
+.menu-btn {
+  font-size: 1.2rem;
+  cursor: pointer;
   display: none;
 }
-.hamburger {
-  font-size: 1.2rem;
+#cross {
+  font-size: 1.4rem;
+  display: none;
 }
 .mb-cta {
   position: absolute;
   top: 70px;
-  right: -100px;
+  right: 0;
+  transform: translateX(130px);
   background-color: var(--bc-color);
   transition: all 0.5s ease-out;
 }
 
 .mb-cta ul li a {
-  width: 100px;
+  width: 120px;
   font-size: 1rem;
   color: #333;
   padding: 6px;
 }
 .mb-cta ul li a:hover {
-  background-color: var(--primary-color);
-}
-
-.menu:hover .mb-cta {
-  right: 0;
+  background-color: blueviolet;
+  color: white;
 }
 
 /* end mobile side nav bar */
@@ -198,7 +200,7 @@ nav {
   width: 60px;
 }
 .bg-img-con h1 {
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 .nav-tag {
   gap: 6px;
@@ -215,7 +217,7 @@ nav {
   .lg-nav {
     display: none;
   }
-  .menu {
+  .menu-btn {
     display: block;
   }
 }
